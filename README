@@ -30,6 +30,6 @@ SELECT partidos.nombre, COUNT(1) AS n AS "Partido que votará" FROM encuestas,
 Las claves están definidas en el archivo cuestionario incluido en el zip del CIS.
 
 ---------------------------------------------------------------------------
-[1]: Los datos del CIS no se puede redistribuir, pero pueden descargarse en
+[1]: Los datos del CIS no se pueden redistribuir, pero pueden descargarse en
 http://www.cis.es/cis/opencms/ES/formulario.jsp?dwld=/Microdatos/MD3117_A.zip.
 El archivo con los datos de las encuestas es 'DA3117'.
