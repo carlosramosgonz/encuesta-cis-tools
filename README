@@ -2,6 +2,8 @@
 Script que convierte el fichero de microdatos del CIS[1] en formato CSV, para ser
 importado en una hoja de cálculo o base de datos.
 
+Nota: este programa es sólo válido para la encuesta preelectoral del CIS de 2015.
+
 convert.pl: Script Perl principal. Ejemplo de uso:
 
   perl convert.pl < DA3117 > encuestas.csv

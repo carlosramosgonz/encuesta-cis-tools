@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
 # Convierte el archivo de microdatos del CIS en un CSV
+# Válido para la encuesta preelectoral del CIS de 2015.
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
