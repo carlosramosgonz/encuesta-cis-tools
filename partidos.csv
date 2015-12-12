@@ -1,0 +1,38 @@
+id_partido,nombre
+1,PP
+2,PSOE
+3,IU
+4,UPyD
+5,Ciudadanos
+6,Podemos
+7,Convergencia
+8,ERC
+9,ICV
+10,Unio
+11,CUP
+12,PNV
+13,Bildu
+14,Geroa Bai
+15,UPN
+16,BNG
+17,Anova
+18,CC
+19,Nueva Canarias
+20,Compromis
+21,FAC
+22,PAR
+23,CHA
+24,PSM-Entesa
+25,PI
+26,PRC
+27,UPL
+28,Caballas
+29,MDyC
+30,Coalicion Por Melilla
+31,PPL
+90,Otro
+95,Voto Nulo
+96,En blanco
+97,N.S.
+98,Ninguno
+99,N.C.
