@@ -135,8 +135,7 @@ PRIMARY KEY (id_cuestionario)
 
 CREATE TABLE partidos (
 	id_partido smallint,
-	nombre VARCHAR(100)
+	nombre VARCHAR(100),
 PRIMARY KEY (id_partido)
 );
-
 
