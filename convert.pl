@@ -295,18 +295,18 @@ sub extraer {
     my @campos = ();
 
     for my $i (0 .. $#extraer) {
-	my $pair = $extraer[$i];
-	my $valor;
-	if ($pair->[1] == 0) {
-	    $valor = substr $linea, $pair->[0], 1;
-	} else {
-	    my $len = $pair->[1] - $pair->[0] + 1;
-	    $valor = substr $linea, $pair->[0], $len;
-	}
+        my $pair = $extraer[$i];
+        my $valor;
+        if ($pair->[1] == 0) {
+            $valor = substr $linea, $pair->[0], 1;
+        } else {
+            my $len = $pair->[1] - $pair->[0] + 1;
+            $valor = substr $linea, $pair->[0], $len;
+        }
 
-	$_ = $valor;
-	s/^ +//;    # eliminar los espacios iniciales sobrantes
-	push @campos, $_;
+        $_ = $valor;
+        s/^ +//;    # eliminar los espacios iniciales sobrantes
+        push @campos, $_;
     }
     return @campos;
 }
@@ -319,7 +319,7 @@ die "Formato columnas incorrecto, $#extraer != $#columnas" unless ($#extraer == 
 for my $i (0 .. $#columnas) {
     print $columnas[$i];
     if ($i < $#columnas) {
-	print ',';
+        print ',';
     }
 }
 print "\n";
@@ -329,10 +329,10 @@ print "\n";
 while (my $linea = <>) {
     my @campos = extraer($linea);
     for my $campo (0 .. $#campos) {
-	print "$campos[$campo]";
-	if ($campo < $#campos) {
-	    print ',';
-	}
+        print "$campos[$campo]";
+        if ($campo < $#campos) {
+            print ',';
+        }
     }
     print "\n";
 }
